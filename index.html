@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="main">
+        <div class="container">
+            <nav>
+                <img src="gambar4/logoo.png" alt="">
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                   <li><button class="btn-secondary">62-123-123</button></li>
+                </ul>
+
+                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"        class="size-6">
+                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                 </svg>
+
+            </nav>
+            <div class="main-content">
+                <h1 class="intro-heading">Feel the Beauty of </h1>
+                <h1 class="main-heading">Mountains</h1>
+              <p>Discover breathtaking mountains peaceful forests and unforgettable adventures waiting for you.</p>
+              <button class="btn btn-primary">Get Started</button>
+                                                                       
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>Out services</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="servis-1.jpg" alt="">
+                    <h3>Web Design</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, incidunt?</p>
+                </div>
+
+                <div class="service">
+                    <img src="servis-2.jpg" alt="">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, incidunt?</p>
+                        
+                </div>
+
+                <div class="service">
+                    <img src="servis-3.jpg" alt="">
+                    <h3>Content Creator</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, incidunt?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="container">
+            <img class="quote" src="gambar4/quote.png" alt="">
+            <h1>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit esse modi laboriosam explicabo tenetur facere quidem quo. Non tempore eum culpa illum? Hic, architecto rerum.""</h1>
+            <div class="profile">
+                <img class="profil" src="gambar4/profil.jpg" alt="">
+                <h4>Rama</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>ABOUT</h4>
+                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quae autem quibusdam dicta rem. Nihil architecto vitae libero autem doloremque!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime amet magni architecto quidem eaque nemo.</p>
+                <button class="btn btn-primary">Let's Talk Now</button>
+            </div>
+
+            <div class="about-image">
+                <img src="gambar4/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="questions">
+        <div class="container">
+            <h1>QUESTIONS?</h1>
+            <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, voluptas!</P>
+            <button class="btn btn-primary">Let's Talk Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="gambar4/logo-colored.png" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </footer>
+
+    <script>
+        const navbtn = document.querySelector("svg");
+        const navlist = document.querySelector(".nav-list");
+
+        navbtn.addEventListener( "click", function () {
+            navlist.classList.toggle("active");
+        });
+    </script>
+<!-- <script>
+    const navbtn = document.querySelector("svg");
+const navlist = document.querySelector(".nav-list");
+
+navbtn.addEventListener("click", function () {
+    console.log("Diklik");
+    navlist.classList.toggle("active");
+});
+</script> -->
+</body>
+</html>
